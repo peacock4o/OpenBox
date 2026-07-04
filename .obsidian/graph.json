@@ -1,0 +1,93 @@
+{
+  "collapse-filter": true,
+  "search": "-path:\"_templates\"",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#node/hub",
+      "color": {
+        "a": 1,
+        "rgb": 10233776
+      }
+    },
+    {
+      "query": "tag:#type/theory",
+      "color": {
+        "a": 1,
+        "rgb": 3900150
+      }
+    },
+    {
+      "query": "tag:#type/drill",
+      "color": {
+        "a": 1,
+        "rgb": 3066993
+      }
+    },
+    {
+      "query": "tag:#type/application",
+      "color": {
+        "a": 1,
+        "rgb": 15105570
+      }
+    },
+    {
+      "query": "tag:#type/sparring",
+      "color": {
+        "a": 1,
+        "rgb": 15844367
+      }
+    },
+    {
+      "query": "tag:#type/conditioning",
+      "color": {
+        "a": 1,
+        "rgb": 4770277
+      }
+    },
+    {
+      "query": "tag:#type/warmup",
+      "color": {
+        "a": 1,
+        "rgb": 15067115
+      }
+    },
+    {
+      "query": "tag:#type/analysis",
+      "color": {
+        "a": 1,
+        "rgb": 15158332
+      }
+    },
+    {
+      "query": "tag:#type/gear",
+      "color": {
+        "a": 1,
+        "rgb": 9132587
+      }
+    },
+    {
+      "query": "tag:#type/meta",
+      "color": {
+        "a": 1,
+        "rgb": 4937059
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -0.3,
+  "nodeSizeMultiplier": 1.1,
+  "lineSizeMultiplier": 1.2,
+  "collapse-forces": false,
+  "centerStrength": 0,
+  "repelStrength": 15,
+  "linkStrength": 0.8,
+  "linkDistance": 210,
+  "scale": 0.12020944770550718,
+  "close": false
+}
