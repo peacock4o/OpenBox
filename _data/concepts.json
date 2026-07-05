@@ -1,0 +1,559 @@
+{
+  "concepts": [
+    {
+      "concept": "stance_height",
+      "family": "stance",
+      "description": "High vs low stance set by foot width; the stability/mobility trade-off."
+    },
+    {
+      "concept": "stance_guard",
+      "family": "stance",
+      "description": "Guard and fist placement: correct height and spacing of the hands."
+    },
+    {
+      "concept": "stance_lead_foot",
+      "family": "stance",
+      "description": "Lead foot angled slightly inward for balance and punching power."
+    },
+    {
+      "concept": "stance_balance",
+      "family": "stance",
+      "description": "Weight distribution and staying balanced in the stance."
+    },
+    {
+      "concept": "stance_alignment",
+      "family": "stance",
+      "description": "Keeping shoulders and pelvis in one vertical plane."
+    },
+    {
+      "concept": "stance_torso_protection",
+      "family": "stance",
+      "description": "Compact torso, elbows in; sensing and protecting the body's boundaries."
+    },
+    {
+      "concept": "stance_switch",
+      "family": "stance",
+      "description": "Switching orthodox/southpaw stance safely — never switch without a punch."
+    },
+    {
+      "concept": "southpaw",
+      "family": "stance",
+      "description": "Fighting as, or against, a southpaw."
+    },
+    {
+      "concept": "foot_types",
+      "family": "footwork",
+      "description": "The basic categories of footwork and how to step."
+    },
+    {
+      "concept": "foot_sidestep",
+      "family": "footwork",
+      "description": "The sidestep, under-arm and over-arm variants."
+    },
+    {
+      "concept": "foot_glide",
+      "family": "footwork",
+      "description": "Sliding / gliding steps."
+    },
+    {
+      "concept": "foot_coordination",
+      "family": "footwork",
+      "description": "Foot speed and coordination (ladder-type work)."
+    },
+    {
+      "concept": "foot_angles",
+      "family": "footwork",
+      "description": "Cutting angles and changing direction to get off the line."
+    },
+    {
+      "concept": "foot_defense",
+      "family": "footwork",
+      "description": "Using footwork (with extended arms) to stay out of range and punch on the move."
+    },
+    {
+      "concept": "pend_concept",
+      "family": "pendulum",
+      "description": "What the pendulum (shuttle) step is and why/when to use it."
+    },
+    {
+      "concept": "pend_ankle",
+      "family": "pendulum",
+      "description": "'Locking the ankle' — the calf/ankle spring that drives the bounce."
+    },
+    {
+      "concept": "pend_timing",
+      "family": "pendulum",
+      "description": "The weight-transfer timing and rhythm of the pendulum."
+    },
+    {
+      "concept": "pend_endurance",
+      "family": "pendulum",
+      "description": "Sustaining the pendulum without tiring; when NOT to bounce all round."
+    },
+    {
+      "concept": "pend_transverse",
+      "family": "pendulum",
+      "description": "The transverse (sideways) pendulum variant."
+    },
+    {
+      "concept": "pend_strike",
+      "family": "pendulum",
+      "description": "Throwing punches out of the pendulum."
+    },
+    {
+      "concept": "pend_slip",
+      "family": "pendulum",
+      "description": "Slipping and head-movement while in the pendulum."
+    },
+    {
+      "concept": "pend_peekaboo",
+      "family": "pendulum",
+      "description": "The peekaboo-style pendulum (Tyson)."
+    },
+    {
+      "concept": "punch_chain",
+      "family": "punch",
+      "description": "Whole-body, ground-up single smooth punch (the kinetic chain)."
+    },
+    {
+      "concept": "punch_split",
+      "family": "punch",
+      "description": "Splitting the body upper/lower and left/right for balance and power."
+    },
+    {
+      "concept": "punch_snap",
+      "family": "punch",
+      "description": "Relaxed delivery, snap and accentuation; the 'preparatory stop'."
+    },
+    {
+      "concept": "punch_follow",
+      "family": "punch",
+      "description": "Punching through the target — the punch has no early ending."
+    },
+    {
+      "concept": "punch_notelegraph",
+      "family": "punch",
+      "description": "No telegraph: no wind-up, no pre-rotation of the fist, no jerking the hand back."
+    },
+    {
+      "concept": "fist_clench",
+      "family": "fist",
+      "description": "Clenching the fist at the moment of impact (timing)."
+    },
+    {
+      "concept": "fist_rotation",
+      "family": "fist",
+      "description": "Whether and when to rotate (pronate) the fist."
+    },
+    {
+      "concept": "fist_surface",
+      "family": "fist",
+      "description": "Landing on the correct knuckles; the fist's contact position."
+    },
+    {
+      "concept": "fist_care",
+      "family": "fist",
+      "description": "Knuckle and hand protection; why the skin rubs; wrist lock."
+    },
+    {
+      "concept": "jab_mechanics",
+      "family": "straight",
+      "description": "The jab / straight lead: fundamentals and common mistakes."
+    },
+    {
+      "concept": "jab_types",
+      "family": "straight",
+      "description": "Variants of the jab (e.g. the underhand jab)."
+    },
+    {
+      "concept": "jab_double",
+      "family": "straight",
+      "description": "The double jab."
+    },
+    {
+      "concept": "jab_entry",
+      "family": "straight",
+      "description": "Using the jab to get inside, stall, or lead the entry."
+    },
+    {
+      "concept": "cross_mechanics",
+      "family": "straight",
+      "description": "The straight rear hand (cross): reach and the collarbone line."
+    },
+    {
+      "concept": "overhand",
+      "family": "straight",
+      "description": "The overhand right, including hands-down delivery (GGG style)."
+    },
+    {
+      "concept": "hook_mechanics",
+      "family": "hook",
+      "description": "Fundamental hook technique — the key detail that makes it correct."
+    },
+    {
+      "concept": "hook_plane",
+      "family": "hook",
+      "description": "Vertical vs horizontal hook: when each is blocked or goes around."
+    },
+    {
+      "concept": "hook_chin",
+      "family": "hook",
+      "description": "Keeping the chin covered while hooking."
+    },
+    {
+      "concept": "hook_leap",
+      "family": "hook",
+      "description": "The leaping / lunging hook to close distance."
+    },
+    {
+      "concept": "hook_around_guard",
+      "family": "hook",
+      "description": "Using the hook to go around or obviate the opponent's guard."
+    },
+    {
+      "concept": "upper_mechanics",
+      "family": "uppercut",
+      "description": "Fundamental uppercut technique and biomechanics."
+    },
+    {
+      "concept": "upper_body",
+      "family": "uppercut",
+      "description": "The uppercut to the body."
+    },
+    {
+      "concept": "upper_clinch",
+      "family": "uppercut",
+      "description": "The uppercut at clinch / very-close range."
+    },
+    {
+      "concept": "body_liver",
+      "family": "body",
+      "description": "The shot to the liver."
+    },
+    {
+      "concept": "body_attack",
+      "family": "body",
+      "description": "Attacking the body generally; multi-shot body series and levels."
+    },
+    {
+      "concept": "seq_one_two",
+      "family": "sequencing",
+      "description": "The one-two: hand exchange and its three-movement structure (incl. the defensive third)."
+    },
+    {
+      "concept": "seq_linking",
+      "family": "sequencing",
+      "description": "Linking punches: hand return not jerk, back/leg coordination, gravity transitions."
+    },
+    {
+      "concept": "seq_one_two_three",
+      "family": "sequencing",
+      "description": "The one-two-three combination and why three is the optimal series."
+    },
+    {
+      "concept": "seq_rhythm",
+      "family": "sequencing",
+      "description": "Varying rhythm/tempo to deceive — and the rule not to change tempo mid-combination."
+    },
+    {
+      "concept": "seq_open_guard",
+      "family": "sequencing",
+      "description": "Combinations engineered to pry open the guard (incl. the liver guard)."
+    },
+    {
+      "concept": "seq_isolated_vs_series",
+      "family": "sequencing",
+      "description": "Single accented shots vs series/flurries — the fundamental difference."
+    },
+    {
+      "concept": "feint",
+      "family": "counter",
+      "description": "Feints to deceive and set up an entry."
+    },
+    {
+      "concept": "provoke",
+      "family": "counter",
+      "description": "Provoking / drawing the opponent's lead in order to counter."
+    },
+    {
+      "concept": "counter_principle",
+      "family": "counter",
+      "description": "Countering fundamentals; offense as defense; what to do after you miss."
+    },
+    {
+      "concept": "counter_intercept",
+      "family": "counter",
+      "description": "Intercepting / stop-hitting the attack as it starts."
+    },
+    {
+      "concept": "counter_off_slip",
+      "family": "counter",
+      "description": "Countering immediately after a slip."
+    },
+    {
+      "concept": "counter_uppercut",
+      "family": "counter",
+      "description": "Using the uppercut as the counter (incl. underhand counters)."
+    },
+    {
+      "concept": "counter_straight",
+      "family": "counter",
+      "description": "Drawing the opponent, then countering with the straight right."
+    },
+    {
+      "concept": "initiative",
+      "family": "counter",
+      "description": "Seizing the initiative and initiating rather than waiting."
+    },
+    {
+      "concept": "fear_control",
+      "family": "counter",
+      "description": "Overcoming fear — of throwing, of exchanges, of being countered."
+    },
+    {
+      "concept": "slip_mechanics",
+      "family": "head_defense",
+      "description": "Soviet-style slip technique — taking the head off the line of attack."
+    },
+    {
+      "concept": "slip_components",
+      "family": "head_defense",
+      "description": "The component movements of slipping and ducking (legs and weight)."
+    },
+    {
+      "concept": "bodywork",
+      "family": "head_defense",
+      "description": "Classical trunk / bodywork (weave, roll) for defense and infighting."
+    },
+    {
+      "concept": "slip_offline",
+      "family": "head_defense",
+      "description": "Getting off the line of fire after the slip — one small step to safety."
+    },
+    {
+      "concept": "guard_closed",
+      "family": "block_defense",
+      "description": "The closed guard."
+    },
+    {
+      "concept": "block_arms",
+      "family": "block_defense",
+      "description": "Covering head and torso; blocking and parrying with the arms."
+    },
+    {
+      "concept": "shoulder_roll",
+      "family": "block_defense",
+      "description": "The shoulder-roll defense."
+    },
+    {
+      "concept": "shoulder_block",
+      "family": "block_defense",
+      "description": "Using the shoulder to defend hooks to the chin."
+    },
+    {
+      "concept": "flinch_control",
+      "family": "block_defense",
+      "description": "Not blinking or flinching; getting used to being hit."
+    },
+    {
+      "concept": "def_vs_hook",
+      "family": "block_defense",
+      "description": "Defending against hooks."
+    },
+    {
+      "concept": "def_vs_overhand",
+      "family": "block_defense",
+      "description": "Defending against the overhand."
+    },
+    {
+      "concept": "def_vs_jab",
+      "family": "block_defense",
+      "description": "Countering the American hanging jab."
+    },
+    {
+      "concept": "def_vs_uppercut",
+      "family": "block_defense",
+      "description": "Reading and defending an incoming uppercut."
+    },
+    {
+      "concept": "dist_geometry",
+      "family": "distance",
+      "description": "The geometry of boxing: lines, angles and positioning."
+    },
+    {
+      "concept": "dist_long",
+      "family": "distance",
+      "description": "Operating and attacking at long range; committing without fear of 'falling'."
+    },
+    {
+      "concept": "dist_close",
+      "family": "distance",
+      "description": "Closing / shortening distance to get inside."
+    },
+    {
+      "concept": "dist_covert",
+      "family": "distance",
+      "description": "Closing distance covertly and deceptively (the secret entry)."
+    },
+    {
+      "concept": "dist_control",
+      "family": "distance",
+      "description": "Controlling range: keeping a taller foe at bay and solving reach problems."
+    },
+    {
+      "concept": "tac_taller",
+      "family": "tactics",
+      "description": "Fighting a taller / longer opponent — getting inside and catching the counter."
+    },
+    {
+      "concept": "tac_shorter",
+      "family": "tactics",
+      "description": "Fighting a shorter opponent."
+    },
+    {
+      "concept": "tac_pressure",
+      "family": "tactics",
+      "description": "Handling an aggressive pressure / bulldozing opponent, and stalling momentum."
+    },
+    {
+      "concept": "tac_style",
+      "family": "tactics",
+      "description": "Style matchups (swarmer vs out-boxer)."
+    },
+    {
+      "concept": "infight_pressure",
+      "family": "infighting",
+      "description": "Applying infighting pressure while keeping balance."
+    },
+    {
+      "concept": "infight_combos",
+      "family": "infighting",
+      "description": "Close-range combination work."
+    },
+    {
+      "concept": "ropes_work",
+      "family": "infighting",
+      "description": "Proper actions on and near the ropes."
+    },
+    {
+      "concept": "corner_escape",
+      "family": "infighting",
+      "description": "Escaping the corner."
+    },
+    {
+      "concept": "cond_stamina",
+      "family": "conditioning",
+      "description": "Endurance and stamina (rhythm change, pulse control)."
+    },
+    {
+      "concept": "cond_strength",
+      "family": "conditioning",
+      "description": "General and punching strength via weights (dumbbells, barbell, 'coin principle')."
+    },
+    {
+      "concept": "cond_plyo",
+      "family": "conditioning",
+      "description": "Explosive / plyometric power."
+    },
+    {
+      "concept": "cond_core",
+      "family": "conditioning",
+      "description": "Core stability and balance (BOSU, ball)."
+    },
+    {
+      "concept": "cond_pull",
+      "family": "conditioning",
+      "description": "Pulling strength and the shoulder girdle (pull-ups)."
+    },
+    {
+      "concept": "cond_press",
+      "family": "conditioning",
+      "description": "Pressing / push-up power (push-up machines)."
+    },
+    {
+      "concept": "cond_rope",
+      "family": "conditioning",
+      "description": "Jump-rope conditioning and coordination."
+    },
+    {
+      "concept": "cond_run",
+      "family": "conditioning",
+      "description": "Running / roadwork for punch coordination."
+    },
+    {
+      "concept": "cond_ankle",
+      "family": "conditioning",
+      "description": "Ankle and calf strengthening for the spring."
+    },
+    {
+      "concept": "tool_speed_bag",
+      "family": "apparatus",
+      "description": "Speed-bag proficiency."
+    },
+    {
+      "concept": "tool_double_end",
+      "family": "apparatus",
+      "description": "Double-end-bag timing."
+    },
+    {
+      "concept": "tool_heavy_bag",
+      "family": "apparatus",
+      "description": "Heavy-bag work and shot placement."
+    },
+    {
+      "concept": "tool_resistance",
+      "family": "apparatus",
+      "description": "Band / stick / barbell / bottle / sledgehammer drills to groove mechanics."
+    },
+    {
+      "concept": "tool_reaction",
+      "family": "apparatus",
+      "description": "Reaction and accuracy tools (laser pointer, tennis ball, Evnik, flying-away bag)."
+    },
+    {
+      "concept": "prep_warmup",
+      "family": "meta",
+      "description": "Warm-up and mobility to avoid injury (and protect the spine)."
+    },
+    {
+      "concept": "prep_recovery",
+      "family": "meta",
+      "description": "Post-workout stretching, relaxation and recovery."
+    },
+    {
+      "concept": "mind_focus",
+      "family": "meta",
+      "description": "Mental preparation, focus and meditation; tuning in for a fight."
+    },
+    {
+      "concept": "mind_philosophy",
+      "family": "meta",
+      "description": "Boxing philosophy: talent vs work, the key quality, age to start, technique-first."
+    },
+    {
+      "concept": "spar_application",
+      "family": "meta",
+      "description": "Putting the skills together under live sparring conditions."
+    },
+    {
+      "concept": "coach_padwork",
+      "family": "meta",
+      "description": "Pad / mitt-holding methodology (coach-facing)."
+    },
+    {
+      "concept": "analysis_fight",
+      "family": "meta",
+      "description": "Analysis and breakdown of professional fights and champions' styles."
+    },
+    {
+      "concept": "meta_channel",
+      "family": "meta",
+      "description": "Channel, course, club and camp promotion and greetings."
+    },
+    {
+      "concept": "gear",
+      "family": "meta",
+      "description": "Equipment selection and care (gloves)."
+    }
+  ]
+}

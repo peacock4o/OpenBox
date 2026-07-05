@@ -1,0 +1,11 @@
+concepts/*
+lessons/*
+
+# Obsidian local session state -- not portable across machines, changes
+# on every launch (open panes, scroll position, last-opened files).
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Community plugin code -- treated like a dependency, not vendored.
+# Install Templater via Obsidian's Community Plugins browser after cloning.
+.obsidian/plugins/

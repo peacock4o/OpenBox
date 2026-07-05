@@ -8,7 +8,7 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#node/hub",
+      "query": "tag:#node/concept",
       "color": {
         "a": 1,
         "rgb": 10233776
@@ -29,49 +29,14 @@
       }
     },
     {
-      "query": "tag:#type/application",
+      "query": "tag:#type/tactic",
       "color": {
         "a": 1,
         "rgb": 15105570
       }
     },
     {
-      "query": "tag:#type/sparring",
-      "color": {
-        "a": 1,
-        "rgb": 15844367
-      }
-    },
-    {
-      "query": "tag:#type/conditioning",
-      "color": {
-        "a": 1,
-        "rgb": 4770277
-      }
-    },
-    {
-      "query": "tag:#type/warmup",
-      "color": {
-        "a": 1,
-        "rgb": 15067115
-      }
-    },
-    {
-      "query": "tag:#type/analysis",
-      "color": {
-        "a": 1,
-        "rgb": 15158332
-      }
-    },
-    {
-      "query": "tag:#type/gear",
-      "color": {
-        "a": 1,
-        "rgb": 9132587
-      }
-    },
-    {
-      "query": "tag:#type/meta",
+      "query": "tag:#type/misc",
       "color": {
         "a": 1,
         "rgb": 4937059
@@ -88,6 +53,6 @@
   "repelStrength": 15,
   "linkStrength": 0.8,
   "linkDistance": 210,
-  "scale": 0.12020944770550718,
+  "scale": 0.0738973885093981,
   "close": false
 }
