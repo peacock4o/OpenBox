@@ -3,8 +3,8 @@
  * Templater startup template. _data/lessons.json and _data/concepts.json
  * are the ONLY sources of truth for the graph -- one-way, 1:1 JSON -> MD.
  * Every lesson note and every concept note is fully regenerated on every
- * vault load, except `watched` on lessons (a per-note progress toggle you
- * flip by hand in Obsidian, carried over from the existing note rather
+ * vault load, except `watched` and `## Notes` on lessons (per-note state
+ * you edit by hand in Obsidian, carried over from the existing note rather
  * than sourced from JSON) and Tier (computed here, not stored in JSON).
  *
  * Pipeline:
@@ -119,6 +119,15 @@ for (const [file, l] of Object.entries(lessons)) {
   const watched = existing
     ? !!app.metadataCache.getFileCache(existing)?.frontmatter?.watched
     : false;
+  // Notes is free text the user writes directly in the note -- not part of
+  // lessons.json, so it has to be read back from the raw file (not
+  // metadataCache, which only covers frontmatter) and reinserted verbatim.
+  let notes = "";
+  if (existing) {
+    const existingText = await app.vault.read(existing);
+    const m = existingText.match(/^## Notes\n\n([\s\S]*)$/m);
+    if (m) notes = m[1].replace(/\n+$/, "");
+  }
 
   const t = tier[file];
   const tags = [
@@ -163,6 +172,10 @@ ${postconceptLinks}
 ## Original description
 
 ${l.description}
+
+## Notes
+
+${notes}
 `;
 
   const content = frontmatter + "\n" + body;
